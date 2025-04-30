@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Theme Editor</title>
-  <link rel=“icon” href="/favicon.ico">
+  <link rel="icon" href="/favicon.ico">
   <style>
     body {
       margin: 0;
@@ -21,7 +21,18 @@
 </head>
 
 <body>
-  <iframe src="iframe.html?id=vim-hub-pages-themeeditor--default&viewMode=story'"></iframe>
+  <script>
+    const path = window.location.pathname;
+    let storyId = 'vim-hub-pages-themeeditor--default';
+
+    if (path.endsWith('/data')) {
+      storyId = 'pages-dataeditor--default';
+    }
+
+    const iframeSrc = `iframe.html?id=${storyId}&viewMode=story`;
+    document.write(`<iframe src="${iframeSrc}"></iframe>`);
+  </script>
+
 </body>
 
 </html>
