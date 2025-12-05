@@ -1,0 +1,2 @@
+var c=Object.defineProperty;var a=(r,s)=>c(r,"name",{value:s,configurable:!0});import{j as o}from"./jsx-runtime-d01ea613.js";import{c as d}from"./index-2870a228.js";function x({children:r,leftElement:s,rightElement:e,fixed:i,className:t}){return o.jsxs("footer",{className:d("footer-new",t??"",{fixed:i}),children:[s&&o.jsx("div",{className:"footer-left",children:s}),o.jsx("div",{className:"footer-middle",children:r}),e&&o.jsx("div",{className:"footer-right",children:e})]})}a(x,"Footer");export{x as F};
+//# sourceMappingURL=index-9ffd3c6b.js.map

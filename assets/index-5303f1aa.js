@@ -1,0 +1,2 @@
+var m=Object.defineProperty;var o=(s,a)=>m(s,"name",{value:a,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{c as t}from"./index-0fdbdf85.js";import{C as i}from"./index-15a2afa8.js";const l=o(({onClick:s,selected:a=!1,disabled:e=!1,loading:p=!1,id:n,children:c})=>r.jsx(i,{className:t("app-menu-icon-wrap",n,{selected:a},{disabled:e},{loading:p}),onClick:s,children:c}),"AppMenuIcon"),A=l;export{A};
+//# sourceMappingURL=index-5303f1aa.js.map

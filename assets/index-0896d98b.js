@@ -1,0 +1,7 @@
+var p=Object.defineProperty;var u=(i,r)=>p(i,"name",{value:r,configurable:!0});/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */var x=u(function(r){return r!=null&&r.constructor!=null&&typeof r.constructor.isBuffer=="function"&&r.constructor.isBuffer(r)},"isBuffer"),h=x,g=d;d.flatten=d;d.unflatten=m;function d(i,r){r=r||{};var j=r.delimiter||".",c=r.maxDepth,l={};function v(a,s,n){n=n||1,Object.keys(a).forEach(function(t){var e=a[t],o=r.safe&&Array.isArray(e),f=Object.prototype.toString.call(e),b=h(e),y=f==="[object Object]"||f==="[object Array]",O=s?s+j+t:t;if(!o&&!b&&y&&Object.keys(e).length&&(!r.maxDepth||n<c))return v(e,O,n+1);l[O]=e})}return u(v,"step"),v(i),l}u(d,"flatten");function m(i,r){r=r||{};var j=r.delimiter||".",c=r.overwrite||!1,l={},v=h(i);if(v||Object.prototype.toString.call(i)!=="[object Object]")return i;function a(n){var t=Number(n);return isNaN(t)||n.indexOf(".")!==-1||r.object?n:t}u(a,"getkey");var s=Object.keys(i).sort(function(n,t){return n.length-t.length});return s.forEach(function(n){for(var t=n.split(j),e=a(t.shift()),o=a(t[0]),f=l;o!==void 0;){if(e==="__proto__")return;var b=Object.prototype.toString.call(f[e]),y=b==="[object Object]"||b==="[object Array]";if(!c&&!y&&typeof f[e]<"u")return;(c&&!y||!c&&f[e]==null)&&(f[e]=typeof o=="number"&&!r.object?[]:{}),f=f[e],t.length>0&&(e=a(t.shift()),o=a(t[0]))}f[e]=m(i[n],r)}),l}u(m,"unflatten");export{g as f};
+//# sourceMappingURL=index-0896d98b.js.map

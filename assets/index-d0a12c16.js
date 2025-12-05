@@ -1,0 +1,2 @@
+var c=Object.defineProperty;var r=(e,a)=>c(e,"name",{value:a,configurable:!0});import{j as t}from"./jsx-runtime-d01ea613.js";import{c as l}from"./index-2870a228.js";function d({active:e,htmlFor:a,label:s,refs:i,...x}){return t.jsxs("div",{className:"input",children:[t.jsx("label",{"aria-hidden":"true",className:l("atomic-textarea-label",{"textarea-active":e}),htmlFor:a,children:s}),t.jsx("textarea",{...x,ref:i})]})}r(d,"LabeledTextArea");export{d as L};
+//# sourceMappingURL=index-d0a12c16.js.map

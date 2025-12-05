@@ -1,0 +1,2 @@
+var d=Object.defineProperty;var i=(a,e)=>d(a,"name",{value:e,configurable:!0});import{j as m}from"./jsx-runtime-d01ea613.js";import{P as s}from"./index-5572c131.js";const n={className:s.string,imgClassName:s.string,src:s.string.isRequired,alt:s.string},o=i(({className:a,imgClassName:e,src:r,alt:t})=>m.jsx("div",{className:a||void 0,children:m.jsx("img",{className:e||void 0,src:r,alt:t||""})}),"RoundedImage");o.propTypes=n;o.defaultProps={className:"rounded-img",imgClassName:"",alt:""};const c=o;export{c as R};
+//# sourceMappingURL=index-4adf9ce1.js.map

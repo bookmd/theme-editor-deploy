@@ -1,0 +1,7 @@
+var d=Object.defineProperty;var r=(t,m)=>d(t,"name",{value:m,configurable:!0});import{j as o}from"./jsx-runtime-d01ea613.js";import{B as p}from"./index-96ff2d55.js";import"./index-49b6e5dd.js";import"./_commonjsHelpers-f86d8be3.js";import"./index-2870a228.js";import"./index-4acc6b6d.js";import"./PopoverState-334c5845.js";import"./index-57cd95bd.js";import"./v4-24b2c166.js";const h={title:"Atoms/Badge",component:p,argTypes:{badgeType:{control:"radio",options:["Tier 1","Tier 2","Preferred Lab","Lower Cost","Free Standing Facility","Premium Care Physician","Quality Care Physician","Not Evaluated For Premium Care","Does Not Meet Premium Quality Criteria","high_tier","middle_tier","low_tier"]},tooltip:{control:"text"},hideTooltip:{control:"boolean"}}},n=r(t=>o.jsx("div",{className:"padding-box-30 margin-top",style:{display:"flex",justifyContent:"center"},children:o.jsx(p,{...t})}),"Template"),e=n.bind({});e.args={badgeType:"Tier 1",tooltip:"Tooltip"};var i,a,s;e.parameters={...e.parameters,docs:{...(i=e.parameters)==null?void 0:i.docs,source:{originalSource:`args => <div className="padding-box-30 margin-top" style={{
+  display: 'flex',
+  justifyContent: 'center'
+}}>
+    <Badge {...args} />
+  </div>`,...(s=(a=e.parameters)==null?void 0:a.docs)==null?void 0:s.source}}};const j=["Default"];export{e as Default,j as __namedExportsOrder,h as default};
+//# sourceMappingURL=Badge.stories-b6c22f3e.js.map

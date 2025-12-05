@@ -1,0 +1,2 @@
+var o=Object.defineProperty;var t=(e,i)=>o(e,"name",{value:i,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{P as n,g as a}from"./genderConverter-ec217d5a.js";import{S as c}from"./index-1c536e47.js";const f=t(({boardCertifications:e,gender:i})=>{const s=e==="true"?"Board Certified":null;return r.jsx(n,{data:s,icon:r.jsx(c,{}),message:a(i,"He's","She's","They're")})},"CertificationsSection"),x=f;export{x as C};
+//# sourceMappingURL=index-7a31e332.js.map

@@ -1,0 +1,4 @@
+var d=Object.defineProperty;var r=(e,n)=>d(e,"name",{value:n,configurable:!0});import{j as s}from"./jsx-runtime-d01ea613.js";import{V as m}from"./index-23d8c9af.js";import{l as p}from"./viewports-feaf5e2b.js";import"./index-49b6e5dd.js";import"./_commonjsHelpers-f86d8be3.js";const L={title:"Connect-Login/Atoms/VimLogoBar",component:m,argTypes:{onCloseClicked:{action:"closed clicked"}},parameters:{viewport:{viewports:{loginWidget:p},defaultViewport:"loginWidget"}}},c=r(e=>s.jsx("div",{className:"padding-box-20",children:s.jsx(m,{...e})}),"Template"),o=c.bind({});o.args={};var a,t,i;o.parameters={...o.parameters,docs:{...(a=o.parameters)==null?void 0:a.docs,source:{originalSource:`args => <div className="padding-box-20">
+    <VimLogoBar {...args} />
+  </div>`,...(i=(t=o.parameters)==null?void 0:t.docs)==null?void 0:i.source}}};const V=["Default"];export{o as Default,V as __namedExportsOrder,L as default};
+//# sourceMappingURL=vim-logo-bar.stories-083740eb.js.map

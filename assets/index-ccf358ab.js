@@ -1,0 +1,2 @@
+var m=Object.defineProperty;var r=(e,s)=>m(e,"name",{value:s,configurable:!0});import{j as a}from"./jsx-runtime-d01ea613.js";import{a as i}from"./index-d6f9581f.js";const x=r(({svgIcon:e,value:s,label:t})=>{const n="-";return a.jsxs("div",{className:"management-user-field",children:[a.jsx("img",{src:e}),a.jsx(i,{label:t,value:s||n})]})},"UserManagementInfoField");export{x as U};
+//# sourceMappingURL=index-ccf358ab.js.map

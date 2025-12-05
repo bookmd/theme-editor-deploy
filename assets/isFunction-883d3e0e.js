@@ -1,0 +1,2 @@
+var c=Object.defineProperty;var o=(t,n)=>c(t,"name",{value:n,configurable:!0});import{b as e}from"./isObjectLike-b52999d3.js";function r(t){var n=typeof t;return t!=null&&(n=="object"||n=="function")}o(r,"isObject");var a="[object AsyncFunction]",i="[object Function]",u="[object GeneratorFunction]",s="[object Proxy]";function g(t){if(!r(t))return!1;var n=e(t);return n==i||n==u||n==a||n==s}o(g,"isFunction");export{g as a,r as i};
+//# sourceMappingURL=isFunction-883d3e0e.js.map

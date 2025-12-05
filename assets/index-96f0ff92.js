@@ -1,0 +1,2 @@
+var s=Object.defineProperty;var o=(t,i)=>s(t,"name",{value:i,configurable:!0});import{j as c}from"./jsx-runtime-d01ea613.js";import{c as a}from"./index-2015e499.js";/* empty css              */const f=o((t,i=!1)=>t===0?"":i?t>9?"9+":t.toString():t>999?"1K+":t.toString(),"formatNotifications"),N=o(({value:t,inactive:i,shrink:n})=>{const r=f(t,n);return c.jsx("div",{"data-testid":"notifications-indicator",className:a("notification",{inactive:i,empty:t===0,wide:!n&&t>99}),children:r})},"NotificationsIndicator");export{N};
+//# sourceMappingURL=index-96f0ff92.js.map

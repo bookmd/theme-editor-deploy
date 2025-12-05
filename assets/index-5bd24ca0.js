@@ -1,0 +1,2 @@
+var c=Object.defineProperty;var s=(t,n)=>c(t,"name",{value:n,configurable:!0});import{j as o}from"./jsx-runtime-d01ea613.js";import{A as i}from"./index-18fb8b63.js";import{T as a}from"./index-1df6d64a.js";const l=s(({onBack:t})=>o.jsxs(i,{buttonType:"link",onClick:t,className:"widget-back-btn",children:[o.jsx("i",{className:"icon-chevron-2"}),o.jsx(a,{children:"Back"})]}),"BackButton");export{l as B};
+//# sourceMappingURL=index-5bd24ca0.js.map

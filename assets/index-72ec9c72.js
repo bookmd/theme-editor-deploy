@@ -1,0 +1,2 @@
+var a=Object.defineProperty;var o=(s,i)=>a(s,"name",{value:i,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{c as m}from"./index-0fdbdf85.js";/* empty css              */import{T as t,S as e,C as n,W as x}from"./index-1df6d64a.js";const g=o(({title:s,children:i})=>r.jsxs("div",{className:m("missing-information-container"),children:[r.jsx(t,{text:s,size:e["14px"],colorName:n.extraDark,weight:x.semibold}),i]}),"MissingInformationContainer");export{g as M};
+//# sourceMappingURL=index-72ec9c72.js.map

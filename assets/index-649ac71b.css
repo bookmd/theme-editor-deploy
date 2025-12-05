@@ -1,0 +1,1 @@
+.paginator{display:flex;align-items:center;justify-content:center}.paginator button{display:flex;align-items:center;justify-content:center;width:30px;height:30px;background:white;border:0;border-bottom:1px solid #09ace4}.paginator button :disabled{opacity:.5}.paginator button:enabled{cursor:pointer}.paginator .label{padding:0 20px}.paginator i{font-size:6px;padding:0}

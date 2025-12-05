@@ -1,0 +1,4 @@
+var m=Object.defineProperty;var r=(t,c)=>m(t,"name",{value:c,configurable:!0});import{j as a}from"./jsx-runtime-d01ea613.js";import{N as n}from"./index-81a70967.js";import"./index-49b6e5dd.js";import"./_commonjsHelpers-f86d8be3.js";const v={title:"vim-connect-ui/Atoms/NotificationsIndicator",component:n,argTypes:{value:{control:"number"},ignoreValue:{control:"boolean"}}},d=r(t=>a.jsx("div",{children:a.jsx(n,{...t})}),"Template"),o=d.bind({});o.args={value:3,ignoreValue:!1};var e,i,s;o.parameters={...o.parameters,docs:{...(e=o.parameters)==null?void 0:e.docs,source:{originalSource:`args => <div>
+    <NotificationsIndicator {...args} />
+  </div>`,...(s=(i=o.parameters)==null?void 0:i.docs)==null?void 0:s.source}}};const x=["Default"];export{o as Default,x as __namedExportsOrder,v as default};
+//# sourceMappingURL=notificationIndicator.stories-7f764fc6.js.map

@@ -1,0 +1,2 @@
+var i=Object.defineProperty;var s=(t,o)=>i(t,"name",{value:o,configurable:!0});import{j as e}from"./jsx-runtime-d01ea613.js";/* empty css              */import{A as m}from"./index-18fb8b63.js";const l=s(({onClick:t,style:o})=>e.jsx(m,{className:"vim-hub-close-button",buttonType:"link",onClick:t,style:{...o},children:e.jsx("i",{className:"icon-x"})}),"CloseButton");export{l as C};
+//# sourceMappingURL=index-a5ec7847.js.map

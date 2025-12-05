@@ -1,0 +1,1 @@
+@keyframes RoleUpdateSuccessSlideIn{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}.update-role-form-success-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.update-role-form-success-container.slide-in{animation:RoleUpdateSuccessSlideIn 1s}.update-role-form-success-img{width:4rem;margin-bottom:1rem}

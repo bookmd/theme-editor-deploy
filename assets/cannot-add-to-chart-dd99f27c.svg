@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="123px" viewBox="0 0 212 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CannotAdd</title>
+    <defs>
+        <linearGradient x1="71.3205911%" y1="62.520486%" x2="0%" y2="55.735121%" id="linearGradient-1">
+            <stop stop-color="#09ACE4" offset="0%"></stop>
+            <stop stop-color="#0AB6C9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M61.625,29 L165,29 C166.656854,29 168,30.3431458 168,32 L168,108 C168,111.865993 164.865993,115 161,115 L58.625,115 L58.625,115 L58.625,32 C58.625,30.3431458 59.9681458,29 61.625,29 Z" id="path-2"></path>
+        <path d="M78.0186839,7.80671379 C78.6505978,9.31212268 79,10.9670199 79,12.7040688 L79,74.4082288 C79,81.362472 73.3998284,87 66.4916667,87 L12.5083333,87 C5.60017159,87 0,81.362472 0,74.4082288 L0,12.7040688 C0,5.74982557 5.60017159,0.11229756 12.5083333,0.11229756 L66.4916667,0.11229756 C69.146778,0.11229756 71.6086725,0.945075467 73.6336596,2.36531511 C76.4937757,4.3712787 76.6660215,4.5842654 78.0186839,7.80671379 Z" id="path-3"></path>
+        <linearGradient x1="71.3205911%" y1="56.9629692%" x2="0%" y2="53.1894506%" id="linearGradient-5">
+            <stop stop-color="#09ACE4" offset="0%"></stop>
+            <stop stop-color="#0AB6C9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M46,45 L149.375,45 C152.136424,45 154.375,47.2385763 154.375,50 L154.375,105.97175 L154.375,105.97175 C154.375,112.233008 157.25,115.363636 163,115.363636 L52,115.363636 C47.0294373,115.363636 43,111.334199 43,106.363636 L43,48 C43,46.3431458 44.3431458,45 46,45 Z" id="path-6"></path>
+        <linearGradient x1="71.3205911%" y1="70.2516501%" x2="0%" y2="59.2764501%" id="linearGradient-7">
+            <stop stop-color="#DD4B84" offset="0%"></stop>
+            <stop stop-color="#FF8787" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-8" cx="43" cy="97" r="18"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CannotAddPopup" transform="translate(-1078.000000, -314.000000)">
+            <g id="Group-6-Copy-2" transform="translate(1002.000000, 267.000000)">
+                <g id="Mask-Copy-2">
+                    <g id="CannotAdd" transform="translate(77.000000, 48.000000)">
+                        <line x1="12" y1="106.600512" x2="37.6" y2="106.600512" id="Line-2-Copy-2" stroke="#32333C" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="88" y1="103.227929" x2="137.682353" y2="103.227929" id="Line-2-Copy-4" stroke="#32333C" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="159.120588" y1="107.666848" x2="202.5" y2="107.5" id="Line-2-Copy-3" stroke="#32333C" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="0.304424779" y1="121.4" x2="68.4955752" y2="121.4" id="Line-2" stroke="#32333C" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="181.5" y1="120.55" x2="210.495575" y2="120.45" id="Line-2-Copy-5" stroke="#32333C" stroke-width="0.8" stroke-linecap="round"></line>
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <use stroke="#32333C" stroke-width="1" fill-opacity="0.15" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Path-Copy-3" transform="translate(63.000000, 0.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" stroke="#32333C" fill="#FFFFFF" xlink:href="#path-3"></use>
+                            <line x1="26" y1="11" x2="53" y2="11" id="Line-3-Copy" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                            <line x1="17" y1="21" x2="61" y2="21" id="Line-3-Copy-2" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                            <line x1="13" y1="31.2075893" x2="27" y2="31.2075893" id="Line-3-Copy-4" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                            <line x1="13" y1="41.2075893" x2="35" y2="41.2075893" id="Line-3-Copy-3" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                            <line x1="52" y1="31.2075893" x2="66" y2="31.2075893" id="Line-3-Copy-6" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                            <line x1="43" y1="41.2075893" x2="65" y2="41.2075893" id="Line-3-Copy-5" stroke="#002E5B" stroke-linecap="round" mask="url(#mask-4)"></line>
+                        </g>
+                        <g id="Rectangle-Copy-4">
+                            <use fill="#FFFFFF" xlink:href="#path-6"></use>
+                            <use stroke="#32333C" stroke-width="1" fill-opacity="0.15" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                        </g>
+                        <g id="Oval">
+                            <use fill="#FFFFFF" xlink:href="#path-8"></use>
+                            <use stroke="#32333C" stroke-width="1" fill-opacity="0.65" fill="url(#linearGradient-7)" xlink:href="#path-8"></use>
+                        </g>
+                        <path d="M49,96 L44,96 L44,91 C44,90.447 43.552,90 43,90 C42.448,90 42,90.447 42,91 L42,96 L37,96 C36.448,96 36,96.447 36,97 C36,97.553 36.448,98 37,98 L42,98 L42,103 C42,103.553 42.448,104 43,104 C43.552,104 44,103.553 44,103 L44,98 L49,98 C49.553,98 50,97.553 50,97 C50,96.447 49.553,96 49,96" id="Combined-Shape" fill="#FFFFFF" transform="translate(43.000000, 97.000000) rotate(45.000000) translate(-43.000000, -97.000000) "></path>
+                        <line x1="129" y1="115.4" x2="178.6" y2="115.4" id="Line-2-Copy" stroke="#0052A4" stroke-width="0.8" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

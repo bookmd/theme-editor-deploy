@@ -1,0 +1,2 @@
+const e={name:"Vim Connect Widget",styles:{width:"420px",minHeight:"600px",height:"600px",borderRadius:"20px",border:"none",boxShadow:"0 5px 20px 5px rgba(8, 58, 107, 0.25)"}},i={name:"Vim Connect Widget",styles:{width:"420px",minHeight:"620px",height:"620px",borderRadius:"20px",border:"none",boxShadow:"0 5px 20px 5px rgba(8, 58, 107, 0.25)"}},n={name:"Vim Connect Inline Widget",styles:{width:"60px",height:"110px",borderRadius:"0px",border:"none",boxShadow:"0 5px 20px 5px rgba(8, 58, 107, 0.25)"}};export{n as a,e as l,i as s};
+//# sourceMappingURL=viewports-feaf5e2b.js.map

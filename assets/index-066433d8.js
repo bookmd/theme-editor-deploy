@@ -1,0 +1,2 @@
+var i=Object.defineProperty;var e=(t,r)=>i(t,"name",{value:r,configurable:!0});import{j as o}from"./jsx-runtime-d01ea613.js";const m=""+new URL("footer-image-4584ce4e.png",import.meta.url).href;function a(){return o.jsx("div",{className:"vim-widget-footer",children:o.jsx("img",{src:m,className:"bg-img",alt:"background"})})}e(a,"VimWidgetFooter");export{a as V};
+//# sourceMappingURL=index-066433d8.js.map

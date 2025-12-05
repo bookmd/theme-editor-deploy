@@ -1,0 +1,2 @@
+var m=Object.defineProperty;var o=(s,a)=>m(s,"name",{value:a,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{c as e}from"./index-2870a228.js";import{u as c}from"./index-87124878.js";const l=o(()=>{const s=c();return r.jsx("div",{className:e("logo",s==null?void 0:s.className),"aria-label":s==null?void 0:s.fullName})},"ThemeLogo"),u=l;export{u as T};
+//# sourceMappingURL=index-cd4d3219.js.map

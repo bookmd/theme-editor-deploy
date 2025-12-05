@@ -1,0 +1,9 @@
+var z=Object.defineProperty;var s=(e,a)=>z(e,"name",{value:a,configurable:!0});import{j as i}from"./jsx-runtime-d01ea613.js";import{r as C}from"./index-49b6e5dd.js";import{S}from"./SizeToggle-6bcea687.js";import"./_commonjsHelpers-f86d8be3.js";import"./index-4acc6b6d.js";import"./index-2870a228.js";import"./PopoverState-334c5845.js";import"./index-57cd95bd.js";import"./v4-24b2c166.js";const u=["CLASSIC","LARGE","EXTRA_LARGE"],R={title:"Atoms/SizeToggle",component:S,parameters:{layout:"centered"},argTypes:{currentSize:{control:"select",options:u,description:"Current active size"},availableSizes:{control:"object",description:"Available sizes to toggle between"},onSizeChange:{action:"size-changed",description:"Callback function when size changes"},className:{control:"text",description:"Optional CSS class name for styling"},ariaLabel:{control:"text",description:"Optional aria-label for accessibility"}},decorators:[e=>i.jsx("div",{children:i.jsx(e,{})})]},A={render:e=>{const[a,m]=C.useState(e.currentSize||"CLASSIC"),d=s(r=>{var o,n;(o=e.availableSizes)!=null&&o.includes(r)&&(m(r),(n=e.onSizeChange)==null||n.call(e,r))},"handleSizeChange");return i.jsx("div",{children:i.jsx(S,{...e,currentSize:a,onSizeChange:d})})}},t={...A,args:{currentSize:"CLASSIC",availableSizes:["CLASSIC","LARGE","EXTRA_LARGE"],ariaLabel:"Toggle application size"}};var c,l,p;t.parameters={...t.parameters,docs:{...(c=t.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  ...InteractiveTemplate,
+  args: {
+    currentSize: 'CLASSIC',
+    availableSizes: ['CLASSIC', 'LARGE', 'EXTRA_LARGE'],
+    ariaLabel: 'Toggle application size'
+  }
+}`,...(p=(l=t.parameters)==null?void 0:l.docs)==null?void 0:p.source}}};const j=["Default"];export{t as Default,j as __namedExportsOrder,R as default};
+//# sourceMappingURL=SizeToggle.stories-f2dec8ef.js.map

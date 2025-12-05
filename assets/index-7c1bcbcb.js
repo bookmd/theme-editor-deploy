@@ -1,0 +1,2 @@
+var c=Object.defineProperty;var i=(e,s)=>c(e,"name",{value:s,configurable:!0});import{j as a}from"./jsx-runtime-d01ea613.js";import{c as l}from"./index-2870a228.js";function u({active:e,htmlFor:s,label:t,refs:n,...r}){return a.jsxs("div",{className:"input",children:[a.jsx("label",{"aria-hidden":"true",className:l("atomic-label",{"input-active":e}),htmlFor:s,children:t}),a.jsx("input",{...r,ref:n})]})}i(u,"LabeledInput");export{u as L};
+//# sourceMappingURL=index-7c1bcbcb.js.map

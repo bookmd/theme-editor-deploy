@@ -1,0 +1,2 @@
+var r=Object.defineProperty;var o=(e,t)=>r(e,"name",{value:t,configurable:!0});function n(e){return n=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},n(e)}o(n,"_getPrototypeOf");function c(){try{var e=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],function(){}))}catch{}return(c=o(function(){return!!e},"_isNativeReflectConstruct"))()}o(c,"_isNativeReflectConstruct");export{c as _,n as a};
+//# sourceMappingURL=isNativeReflectConstruct-2e04507a.js.map

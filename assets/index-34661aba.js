@@ -1,0 +1,2 @@
+var i="Data Exchange Admin",a=["Medical Doctor","PA-C/NP","Medical Assistant","Front Office/Reception","Scheduler","Nurse","Practice Manager","Referral Coordinator","Quality Manager/Coordinator","Billing Team","Authorization Team","Verification Team","Medical Scribe","Lab Technician","Optometrist","Podiatrist","Behavioral Health","Dentist","C-Suite/VP/Director","Clinical Staff",i],e={vimTOS:"https://getvim.com/documents/provider/",vimPP:"https://getvim.com/legal/privacy-policy/"};export{a as R,e as l};
+//# sourceMappingURL=index-34661aba.js.map

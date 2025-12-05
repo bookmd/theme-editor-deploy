@@ -1,0 +1,21 @@
+var R=Object.defineProperty;var m=(e,i)=>R(e,"name",{value:i,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{r as S,U as y}from"./red-help-e96bf84f.js";import{U as s}from"./index-ccf358ab.js";import{T as p,W as L}from"./index-1df6d64a.js";import{A as P}from"./index-18fb8b63.js";import{i as k}from"./isEmpty-accbd652.js";import{v as A}from"./phoneFormatter-ec1362ae.js";import"./index-49b6e5dd.js";import"./_commonjsHelpers-f86d8be3.js";import"./index-d6f9581f.js";import"./index-2870a228.js";import"./index-15a2afa8.js";import"./index-4acc6b6d.js";import"./PopoverState-334c5845.js";import"./index-57cd95bd.js";import"./v4-24b2c166.js";import"./index-090660ec.js";import"./index-5572c131.js";import"./index-9f5ebfed.js";import"./index-4243b293.js";import"./index-fb8076a8.js";import"./_getTag-d8b636ac.js";import"./isFunction-883d3e0e.js";import"./isObjectLike-b52999d3.js";import"./isArray-513c67aa.js";const C=""+new URL("email-6b764c74.svg",import.meta.url).href,M=""+new URL("location-9e918965.svg",import.meta.url).href,T=""+new URL("phone-6897022f.svg",import.meta.url).href,W=""+new URL("shield-7cb63803.svg",import.meta.url).href,H=""+new URL("role-664eeae6.svg",import.meta.url).href;const D=m(({openSupportPopover:e})=>r.jsxs("div",{className:"user-center-help-container",children:[r.jsxs("div",{className:"user-center-help-title",children:[r.jsx("img",{src:S}),r.jsx(p,{text:"Need help?",weight:L.bold})]}),r.jsx(p,{text:"Submit an issue so our support team can assist you."}),r.jsx(P,{onClick:e,variant:"contained",buttonType:"small",color:"primary",children:"Submit Request"})]}),"UserCenterNeedHelp");const F=m(({user:e,openSupportPanel:i})=>{var c,l;const E=A((e==null?void 0:e.phoneNumber)??"");return r.jsxs("div",{className:"management-user-info",children:[r.jsxs("div",{className:"flex flex-col gap-2 flex-1 max-w-[1250px] mx-auto w-full",children:[r.jsx(s,{label:"Role",value:(c=e==null?void 0:e.roles)==null?void 0:c.join(", "),svgIcon:H}),r.jsx("div",{className:"divider"}),r.jsx(s,{label:"EHR username",value:e==null?void 0:e.linkedEhrUser,svgIcon:y}),r.jsx("div",{className:"divider"}),r.jsx(s,{label:"Email",value:e==null?void 0:e.email,svgIcon:C}),r.jsx("div",{className:"divider"}),r.jsx(s,{label:"Address",value:(l=e==null?void 0:e.address)==null?void 0:l.fullAddress,svgIcon:M}),r.jsx("div",{className:"divider"}),r.jsx(s,{label:"Phone number",value:E,svgIcon:T}),r.jsx("div",{className:"divider"}),r.jsx(s,{label:"NPI",value:e==null?void 0:e.npi,svgIcon:W}),r.jsx("div",{className:"divider"})]}),r.jsx("div",{className:`user-center-help-cta-wrapper ${k(e==null?void 0:e.roles)?"auto-location":""}`,children:r.jsx(D,{openSupportPopover:i})})]})},"ManagementContent"),de={title:"UserManagement/Organisms/ManagementContent",component:F,argTypes:{user:{control:"object"}}},w={address:{fullAddress:"Somewhere in the mediterranean"},email:"me@work.not",firstName:"First",lastName:"Last",linkedEhrUser:"not-jake",npi:"123456",tin:"987654",phoneNumber:void 0},o={args:{user:w}},a={args:{user:{...w,phoneNumber:"+12025550104"}}},n={args:{user:void 0}},t={args:{user:{}}};var d,v,x;o.parameters={...o.parameters,docs:{...(d=o.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {
+    user
+  }
+}`,...(x=(v=o.parameters)==null?void 0:v.docs)==null?void 0:x.source}}};var h,u,g;a.parameters={...a.parameters,docs:{...(h=a.parameters)==null?void 0:h.docs,source:{originalSource:`{
+  args: {
+    user: {
+      ...user,
+      phoneNumber: '+12025550104'
+    }
+  }
+}`,...(g=(u=a.parameters)==null?void 0:u.docs)==null?void 0:g.source}}};var f,j,N;n.parameters={...n.parameters,docs:{...(f=n.parameters)==null?void 0:f.docs,source:{originalSource:`{
+  args: {
+    user: undefined
+  }
+}`,...(N=(j=n.parameters)==null?void 0:j.docs)==null?void 0:N.source}}};var U,b,I;t.parameters={...t.parameters,docs:{...(U=t.parameters)==null?void 0:U.docs,source:{originalSource:`{
+  args: {
+    user: ({} as any)
+  }
+}`,...(I=(b=t.parameters)==null?void 0:b.docs)==null?void 0:I.source}}};const ve=["Default","UserWithPhone","UndefinedUser","EmptyUser"];export{o as Default,t as EmptyUser,n as UndefinedUser,a as UserWithPhone,ve as __namedExportsOrder,de as default};
+//# sourceMappingURL=ManagementContent.stories-4c124dce.js.map

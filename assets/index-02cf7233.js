@@ -1,0 +1,2 @@
+var m=Object.defineProperty;var o=(s,i)=>m(s,"name",{value:i,configurable:!0});import{j as r}from"./jsx-runtime-d01ea613.js";import{V as n}from"./index-23d8c9af.js";import{V as p}from"./index-066433d8.js";const c=o(({children:s,className:i,onCloseClicked:e,hidden:a=!1})=>r.jsx("div",{className:"padding-box-20",hidden:a,children:r.jsxs("div",{className:`login-wrapper ${i??""}`,children:[r.jsx(n,{onCloseClicked:e}),r.jsx("div",{className:"login-wrapper-children",children:s}),r.jsx(p,{})]})}),"LoginWidgetWrapper");export{c as L};
+//# sourceMappingURL=index-02cf7233.js.map

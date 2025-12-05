@@ -1,0 +1,2 @@
+var m=Object.defineProperty;var i=(o,e)=>m(o,"name",{value:e,configurable:!0});import{j as s}from"./jsx-runtime-d01ea613.js";const t=""+new URL("vimLogoMd-2d3eb968.png",import.meta.url).href;function r({onCloseClicked:o}){return s.jsxs("header",{className:"vim-logo-bar",children:[s.jsx("img",{src:t,className:"vim-logo",alt:"vim logo"}),o&&s.jsx("button",{className:"close-icon",type:"button",onClick:o,children:s.jsx("i",{className:"icon-x"})})]})}i(r,"VimLogoBar");export{r as V};
+//# sourceMappingURL=index-23d8c9af.js.map

@@ -1,0 +1,2 @@
+var a=Object.defineProperty;var n=(o,s)=>a(o,"name",{value:s,configurable:!0});import{j as t}from"./jsx-runtime-d01ea613.js";import{P as l}from"./genderConverter-ec217d5a.js";import{T as m,A as p,W as c,C as f}from"./index-1df6d64a.js";const u=n(({data:o,className:s,...e})=>{const r=t.jsx("div",{className:s,children:o&&o.map(i=>t.jsx(m,{align:p.left,weight:c.semibold,colorName:f.ultraDark,children:i},`${i}`))});return t.jsx(l,{data:r,...e})},"ProfessionalSectionForMultipleOptions"),g=u;export{g as P};
+//# sourceMappingURL=ProfessionalSectionForMultipleOptions-6262cf54.js.map

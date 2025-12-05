@@ -1,0 +1,8 @@
+var x=Object.defineProperty;var a=(t,r)=>x(t,"name",{value:r,configurable:!0});import{j as e}from"./jsx-runtime-d01ea613.js";import{c as s}from"./index-2870a228.js";import"./index-49b6e5dd.js";import"./_commonjsHelpers-f86d8be3.js";function l({children:t,className:r,tooltipContent:p,placement:m="top",showCircleAnimation:d=!0,visible:u=!0}){return e.jsx(e.Fragment,{children:u?e.jsxs("div",{className:s("new-feature-tooltip-wrap",r),children:[d&&e.jsx("div",{className:"circle-animation"}),t,e.jsx("div",{className:s("new-feature-tooltip",`${m}`),children:e.jsx("div",{className:"new-feature-tooltip-content",children:p})})]}):e.jsx(e.Fragment,{children:t})})}a(l,"NewFeatureTooltip");const h={title:"Atoms/NewFeatureTooltip",component:l,parameters:{viewport:{defaultViewport:"default"}},argTypes:{placement:{control:"radio",options:["top","bottom","left","right"]}}},o=a(t=>e.jsx("div",{className:"padding-box-30 margin-top-50 text-center",children:e.jsx(l,{...t,children:e.jsx("button",{children:e.jsx("i",{className:"icon-export"})})})}),"Default");o.args={placement:"top",visible:!0,showCircleAnimation:!0,tooltipContent:e.jsxs(e.Fragment,{children:[e.jsx("strong",{children:"New!"})," Click to export"]})};var n,i,c;o.parameters={...o.parameters,docs:{...(n=o.parameters)==null?void 0:n.docs,source:{originalSource:`args => <div className="padding-box-30 margin-top-50 text-center">
+    <NewFeatureTooltip {...args}>
+      <button>
+        <i className="icon-export" />
+      </button>
+    </NewFeatureTooltip>
+  </div>`,...(c=(i=o.parameters)==null?void 0:i.docs)==null?void 0:c.source}}};const v=["Default"];export{o as Default,v as __namedExportsOrder,h as default};
+//# sourceMappingURL=newFeatureTooltip.stories-e82ade59.js.map

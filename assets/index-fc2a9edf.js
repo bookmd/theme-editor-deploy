@@ -1,0 +1,2 @@
+var i=Object.defineProperty;var s=(t,o)=>i(t,"name",{value:o,configurable:!0});import{j as e}from"./jsx-runtime-d01ea613.js";/* empty css              */import{A as n}from"./index-18fb8b63.js";const u=s(({onClick:t,dataTestId:o})=>e.jsx(n,{className:"hub-close-button",buttonType:"link",onClick:t,"data-testid":o,children:e.jsx("i",{className:"icon-x"})}),"CloseButton");export{u as C};
+//# sourceMappingURL=index-fc2a9edf.js.map
